@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553544440784",
+    "project_id": "smaga-apps",
+    "storage_bucket": "smaga-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553544440784:android:8c83d8fd962bd0976a37d5",
+        "android_client_info": {
+          "package_name": "com.example.smaga_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553544440784-an2ckpdpae4aiqvkfn9b6k8qk2u42g50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smaga_apps",
+            "certificate_hash": "82cccea9c30fe6f1d62c1395bf3d26a75b0762d7"
+          }
+        },
+        {
+          "client_id": "553544440784-tjear3r6cc9aiqjdrqc0k3cp7qd1pm6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmmX11QGpb2ZIJBCasYn3Kw0nBuA9No0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553544440784-tjear3r6cc9aiqjdrqc0k3cp7qd1pm6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
