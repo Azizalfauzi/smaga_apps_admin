@@ -20,4 +20,6 @@ class PengumumanCubit extends Cubit<PengumumanState> {
       emit(PengumumanGetFailed(e.toString()));
     }
   }
+
+  
 }

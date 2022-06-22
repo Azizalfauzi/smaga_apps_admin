@@ -127,22 +127,22 @@ class _HomePageState extends State<HomePage> {
           Row(
             children: [
               ButtonHomeWidget(
-                image: "assets/images/ic_calendar_home.png",
-                title: "Buat Absensi",
+                image: "assets/images/ic_topic.png",
+                title: "Daftar Absensi",
                 onTap: () {
                   Navigator.pushNamed(
                     context,
-                    '/jadwal-page',
+                    '/data-absensi-page',
                   );
                 },
               ),
               ButtonHomeWidget(
-                image: "assets/images/ic_book_home.png",
+                image: "assets/images/ic_pengumuman.png",
                 title: "Pengumuman",
                 onTap: () {
                   Navigator.pushNamed(
                     context,
-                    '/riwayat-page',
+                    '/pengumuman-page',
                   );
                 },
               ),
