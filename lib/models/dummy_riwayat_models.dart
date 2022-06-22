@@ -1,6 +1,6 @@
 part of 'models.dart';
 
-class DummyRiwayat {
+class DummySiswaRiwayat {
   final int id;
   final String mapel;
   final String kelas;
@@ -8,7 +8,7 @@ class DummyRiwayat {
   final int hadir;
   final int tidakHadir;
 
-  DummyRiwayat(
+  DummySiswaRiwayat(
     this.id,
     this.mapel,
     this.kelas,
@@ -18,8 +18,8 @@ class DummyRiwayat {
   );
 }
 
-List<DummyRiwayat> mockRiwayat = [
-  DummyRiwayat(
+List<DummySiswaRiwayat> mockDetailSiswa = [
+  DummySiswaRiwayat(
     1,
     "Matematika",
     "XII Mipa 1",
@@ -27,7 +27,7 @@ List<DummyRiwayat> mockRiwayat = [
     13,
     1,
   ),
-  DummyRiwayat(
+  DummySiswaRiwayat(
     2,
     "Biologi",
     "XII Mipa 1",
@@ -35,7 +35,7 @@ List<DummyRiwayat> mockRiwayat = [
     10,
     2,
   ),
-  DummyRiwayat(
+  DummySiswaRiwayat(
     3,
     "Fisika",
     "XII Mipa 1",

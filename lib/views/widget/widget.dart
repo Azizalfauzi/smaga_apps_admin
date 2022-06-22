@@ -5,4 +5,4 @@ part 'button_widget.dart';
 part 'custom_button_navigation.dart';
 part 'button_menu_widget.dart';
 part 'custom_inputreadonly_widget.dart';
-part 'button_jadwal_widget.dart';
+part 'button_absensi_widget.dart';

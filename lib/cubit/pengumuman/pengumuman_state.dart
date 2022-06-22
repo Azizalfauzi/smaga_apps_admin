@@ -24,3 +24,4 @@ class PengumumanGetFailed extends PengumumanState {
   @override
   List<Object> get props => [message];
 }
+

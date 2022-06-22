@@ -48,7 +48,7 @@ class _MainPageState extends State<MainPage> {
                         child: HomePage(),
                       ),
                       Center(
-                        child: ScanAbsenPage(),
+                        child: CreateAbsenPage(),
                       ),
                       Center(
                         child: ProfilePage(),

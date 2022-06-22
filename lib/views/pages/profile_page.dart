@@ -77,12 +77,8 @@ class ProfilePage extends StatelessWidget {
                   input: state.result.name.toString(),
                 ),
                 InputReadOnly(
-                  label: "Nis :",
+                  label: "Nik :",
                   input: state.result.nis.toString(),
-                ),
-                const InputReadOnly(
-                  label: "Tanggal Lahir :",
-                  input: "12 Nopember 1998",
                 ),
                 InputReadOnly(
                   label: "Kelas :",
@@ -123,10 +119,7 @@ class ProfilePage extends StatelessWidget {
         }
         return Padding(
           padding: const EdgeInsets.only(
-            left: defaultMargin,
-            right: defaultMargin,
-            top: 60
-          ),
+              left: defaultMargin, right: defaultMargin, top: 60),
           child: ButtonWidget(
             title: "Logout",
             onTap: () {

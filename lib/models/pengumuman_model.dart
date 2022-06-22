@@ -6,7 +6,7 @@ class PengumumanModel {
   final String deskripsi;
   final String img;
   PengumumanModel({
-    required this.id,
+    this.id = '',
     this.judul = '',
     this.deskripsi = '',
     this.img = '',
